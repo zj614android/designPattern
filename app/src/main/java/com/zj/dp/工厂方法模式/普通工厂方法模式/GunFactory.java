@@ -1,10 +1,4 @@
-package com.zj.dp.工厂方法模式.多个工厂方法;
-
-import com.zj.dp.工厂方法模式.普通工厂模式.AK47;
-import com.zj.dp.工厂方法模式.普通工厂模式.IGun;
-import com.zj.dp.工厂方法模式.普通工厂模式.M4A1;
-import com.zj.dp.工厂方法模式.普通工厂模式.MP5;
-import com.zj.dp.工厂方法模式.普通工厂模式.UZI;
+package com.zj.dp.工厂方法模式.普通工厂方法模式;
 
 /**
 Created by thinkpad on 2018/1/11
@@ -22,22 +16,24 @@ Created by thinkpad on 2018/1/11
  1.抽象产品 IGun.java
  2.实现具体的产品 AK47.java / MP5.java / UZI.java / M4A1.java
  3.建立工厂生产产品 GunFactory.java
- 4.建立测试类：StandardFactoryTest.java
+ 4.建立测试类：Test.java
  */
 
 public class GunFactory {
 
-    public IGun getGunAK47() {
-        return new AK47();
-    }
-    public IGun getGunM4A1() {
-        return new M4A1();
-    }
-    public IGun getGunMP5() {
-        return new MP5();
-    }
-    public IGun getGunUZI() {
-        return new UZI();
+    public IGun getGun(String type) {
+        switch (type){
+            case "AK47":
+                return new AK47();
+            case "M4A1":
+                return new M4A1();
+            case "MP5":
+                return new MP5();
+            case "UZI":
+                return new UZI();
+            default:
+                return null;
+        }
     }
 
 }

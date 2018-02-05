@@ -1,12 +1,10 @@
-package com.zj.dp.工厂方法模式.多个工厂方法;
-
-import com.zj.dp.工厂方法模式.普通工厂模式.IGun;
+package com.zj.dp.工厂方法模式.多个工厂方法模式;
 
 /**
  * Created by thinkpad on 2018/1/11.
  */
 
-public class MultiFactoryTest {
+public class Test {
 
     public static void main(String [] args){
 

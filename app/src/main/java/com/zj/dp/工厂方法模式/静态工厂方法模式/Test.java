@@ -5,7 +5,7 @@ package com.zj.dp.工厂方法模式.静态工厂方法模式;
  * Created by thinkpad on 2018/1/11.
  */
 
-public class StaticFactoryTest {
+public class Test {
 
     public static void main(String [] args){
 

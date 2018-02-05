@@ -1,10 +1,10 @@
 package com.zj.dp.工厂方法模式.静态工厂方法模式;
 
-import com.zj.dp.工厂方法模式.普通工厂模式.AK47;
-import com.zj.dp.工厂方法模式.普通工厂模式.IGun;
-import com.zj.dp.工厂方法模式.普通工厂模式.M4A1;
-import com.zj.dp.工厂方法模式.普通工厂模式.MP5;
-import com.zj.dp.工厂方法模式.普通工厂模式.UZI;
+import com.zj.dp.工厂方法模式.普通工厂方法模式.AK47;
+import com.zj.dp.工厂方法模式.普通工厂方法模式.IGun;
+import com.zj.dp.工厂方法模式.普通工厂方法模式.M4A1;
+import com.zj.dp.工厂方法模式.普通工厂方法模式.MP5;
+import com.zj.dp.工厂方法模式.普通工厂方法模式.UZI;
 
 /**
 Created by thinkpad on 2018/1/11
@@ -22,7 +22,7 @@ Created by thinkpad on 2018/1/11
  1.抽象产品 IGun.java
  2.实现具体的产品 AK47.java / MP5.java / UZI.java / M4A1.java
  3.建立工厂生产产品 GunFactory.java
- 4.建立测试类：StandardFactoryTest.java
+ 4.建立测试类：Test.java
  */
 
 public class GunFactory {
