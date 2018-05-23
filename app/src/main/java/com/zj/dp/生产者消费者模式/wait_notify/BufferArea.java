@@ -1,6 +1,5 @@
 package com.zj.dp.生产者消费者模式.wait_notify;
 
-import java.util.LinkedList;
 
 public class BufferArea {
 

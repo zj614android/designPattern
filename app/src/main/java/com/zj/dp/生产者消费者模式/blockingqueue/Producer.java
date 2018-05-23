@@ -1,9 +1,11 @@
-package com.zj.dp.生产者消费者模式.wait_notify;
+package com.zj.dp.生产者消费者模式.blockingqueue;
+
+import com.zj.dp.生产者消费者模式.wait_notify.BufferArea;
 
 public class Producer extends Thread {
 
-    private BufferArea mBufferArea;
-    public Producer(BufferArea bufferArea){
+    private BlockQueueBufferArea mBufferArea;
+    public Producer(BlockQueueBufferArea bufferArea){
         this.mBufferArea = bufferArea;
         setName("Producer_"+getName());
     }
