@@ -1,6 +1,4 @@
-package com.zj.java容器.dequeue;
-
-import java.util.ArrayDeque;
+package com.zj.数据结构.java容器;
 
 public class ArrayDequeueTest {
 

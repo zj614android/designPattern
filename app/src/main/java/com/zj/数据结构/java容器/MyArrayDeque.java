@@ -32,9 +32,7 @@
  * as explained at http://creativecommons.org/publicdomain/zero/1.0/.
  */
 
-package com.zj.java容器.dequeue;
-
-import android.util.Log;
+package com.zj.数据结构.java容器;
 
 import java.io.Serializable;
 import java.util.AbstractCollection;
