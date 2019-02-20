@@ -1,5 +1,7 @@
 package com.zj.数据结构.树.bst;
 
+import com.zj.数据结构.树.avl.BinarySearchTree;
+
 public class BstTest {
 
     public static void main(String[] args) {
