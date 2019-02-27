@@ -25,11 +25,11 @@ public class BinarySearchTreeV2<T extends Comparable> {
         @Override
         public String toString() {
 
-            return
-                    "value == " + value.toString() +
+            return "value == " + value.toString() +
                             "：：：left value == " + ((null != left && null != left.value) ? left.value.toString() : " null ") +
                             "__right value == " + ((null != right && null != right.value) ? right.value.toString() : " null ");
         }
+
     }
 
     public void add(T value) {
